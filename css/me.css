@@ -1,0 +1,54 @@
+h1{
+    font-family: roboto;
+}
+button{
+    width: 20mm;
+    height: 8mm;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 70mm;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers{
+  display: inline-block;
+}
+
+.MessageInfo {
+  color: black;
+  font-size: 14px;
+  padding: 10px 100px;
+  position: absolute;
+  top: 87px;
+  width: 70mm;
+}
+
+
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3;
+  animation-name: fade;
+  animation-duration: 3;
+}
+@-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 3}
+  }
+  
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 3}
+  } 
+.cat{
+    margin:auto;
+    text-align: center;
+} 
+.best{
+  font-size: medium;
+}
